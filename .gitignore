@@ -1,24 +1,3 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sСоздай в корне проекта файл с именем `.gitignore` и добавь в него следующее содержимое:
-
-```gitignore
 # Байткод Python и кэш
 __pycache__/
 *.py[cod]
@@ -31,7 +10,7 @@ venv/
 ENV/
 env/
 
-# Переменные окружения и секреты (критично не коммитить!)
+# Переменные окружения и секреты
 .env
 .env.*
 !.env.example

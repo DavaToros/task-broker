@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sСоздай в корне проекта файл с именем `.gitignore` и добавь в него следующее содержимое:
+
+```gitignore
+# Байткод Python и кэш
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Виртуальные окружения
+.venv/
+venv/
+ENV/
+env/
+
+# Переменные окружения и секреты (критично не коммитить!)
+.env
+.env.*
+!.env.example
+
+# Базы данных и данные Docker волюмов
+*.sqlite3
+*.db
+pg_data/
+redis_data/
+
+# Логи и временные файлы
+*.log
+*.pid
+
+# Настройки IDE и редакторов кода
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Тесты и покрытие кода
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Системные мусорные файлы
+.DS_Store
+Thumbs.db

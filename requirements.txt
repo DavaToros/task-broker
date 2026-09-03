@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standart]
+websockets
+sqlalchemy
+asyncpg
+pydantic
+pydantic-settings
+redis
+arq
